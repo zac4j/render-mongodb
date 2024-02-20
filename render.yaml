@@ -4,6 +4,6 @@ services:
     env: docker
     autoDeploy: false
     disk:
-      name: data
+      name: mongodb-data
       mountPath: /data/db
       sizeGB: 10
